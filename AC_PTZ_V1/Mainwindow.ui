@@ -1,0 +1,7762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainwindowClass</class>
+ <widget class="QWidget" name="MainwindowClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>780</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>780</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>780</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Mainwindow</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>104</x>
+     <y>45</y>
+     <width>1090</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>6</number>
+   </property>
+   <widget class="QWidget" name="Page1">
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <widget class="PanelItem" name="Page1_Pane1" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>150</width>
+       <height>135</height>
+      </rect>
+     </property>
+     <widget class="QLabel" name="Page1_Pane1_Label1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>22</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>俯仰</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane1_Pitch_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>22</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string>0.00</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane1_Label2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>57</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>横滚</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane1_Roll_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>57</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string>0.00</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane1_Yaw_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>92</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string>0.00</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane1_Label3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>92</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>航向</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="PanelItem" name="Page1_Pane2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>140</y>
+       <width>150</width>
+       <height>135</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>135</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>135</height>
+      </size>
+     </property>
+     <widget class="QLabel" name="Page1_Pane2_Label1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>22</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>俯仰</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane2_Pitch_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>22</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string>0.00</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane2_Label2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>57</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>横滚</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane2_Roll_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>57</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string>0.00</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane2_Yaw_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>92</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string>0.00</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane2_Label3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>92</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>航向</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="PanelItem" name="Page1_Pane3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>280</y>
+       <width>150</width>
+       <height>135</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>135</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>135</height>
+      </size>
+     </property>
+     <widget class="QLabel" name="Page1_Pane3_Label1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>22</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>俯仰</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane3_Pitch_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>22</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string>0.00</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane3_Label2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>57</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>横滚</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane3_Roll_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>57</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string>0.00</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane3_Yaw_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>92</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string>0.00</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane3_Label3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>92</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>航向</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="PanelItem" name="Page1_Pane4" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>420</y>
+       <width>150</width>
+       <height>135</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>135</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>135</height>
+      </size>
+     </property>
+     <widget class="QLabel" name="Page1_Pane4_Label1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>22</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>俯仰</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane4_Pitch_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>22</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane4_Label2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>57</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>横滚</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane4_Roll_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>57</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane4_Yaw_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>92</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane4_Label3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>92</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>航向</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="PanelItem" name="Page1_Pane5" native="true">
+     <property name="geometry">
+      <rect>
+       <x>155</x>
+       <y>0</y>
+       <width>400</width>
+       <height>90</height>
+      </rect>
+     </property>
+     <widget class="QRadioButton" name="Page1_Pane5_NormalMode_radioBtn">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>40</y>
+        <width>75</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>普通模式</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Page1_Pane5_CalibrationMode_radioBtn">
+      <property name="geometry">
+       <rect>
+        <x>91</x>
+        <y>40</y>
+        <width>75</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>校准模式</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Page1_Pane5_MotorLockMode_radioBtn">
+      <property name="geometry">
+       <rect>
+        <x>173</x>
+        <y>40</y>
+        <width>105</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>电机锁定模式</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="Page1_Pane5_StaticCalibrationMode_radioBtn">
+      <property name="geometry">
+       <rect>
+        <x>283</x>
+        <y>40</y>
+        <width>105</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>静态校准模式</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="PanelItem" name="Page1_Pane6" native="true">
+     <property name="geometry">
+      <rect>
+       <x>155</x>
+       <y>95</y>
+       <width>400</width>
+       <height>460</height>
+      </rect>
+     </property>
+     <widget class="HoverFillButton" name="Page1_Pane6_MotorCalibration_Btn">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>29</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>电机校准</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane6_AttitudeCalibration_Btn">
+      <property name="geometry">
+       <rect>
+        <x>136</x>
+        <y>29</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>姿态校准</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane6_GyroCalibration_Btn">
+      <property name="geometry">
+       <rect>
+        <x>262</x>
+        <y>29</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>GYRO校准</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane6_SixCalibration_Btn">
+      <property name="geometry">
+       <rect>
+        <x>136</x>
+        <y>85</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>六面校准</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane6_WaveRecordRead_Btn">
+      <property name="geometry">
+       <rect>
+        <x>262</x>
+        <y>85</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>录波读取</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane6__SixNextStep_Btn">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>85</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>六面下一步</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane6_TrackStart_Btn">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>197</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>轨迹开始</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane6_IdentifySamples_Btn">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>141</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>辨识采样</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane6_ReadRecognition_Btn">
+      <property name="geometry">
+       <rect>
+        <x>136</x>
+        <y>141</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>读取识别</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane6_Inception_Btn">
+      <property name="geometry">
+       <rect>
+        <x>262</x>
+        <y>141</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>盗梦空间</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane6_DM1Start_Btn">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>345</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>DM1启</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane6_Sound_Btn">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>289</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>声音</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane6_DM1Execute_Btn">
+      <property name="geometry">
+       <rect>
+        <x>136</x>
+        <y>345</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>DM1执行</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane6_DM1Exit_Btn">
+      <property name="geometry">
+       <rect>
+        <x>262</x>
+        <y>345</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>DM1退</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane6_WriteUD_Btn">
+      <property name="geometry">
+       <rect>
+        <x>136</x>
+        <y>401</y>
+        <width>120</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>写UD</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane6_ReadUD_Btn">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>401</y>
+        <width>120</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>读UD</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane6_TrackExecute_Btn">
+      <property name="geometry">
+       <rect>
+        <x>136</x>
+        <y>197</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>轨迹执行</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane6_TrackExit_Btn">
+      <property name="geometry">
+       <rect>
+        <x>262</x>
+        <y>197</y>
+        <width>120</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>轨迹退出</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane6_TrackPoint_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>64</x>
+        <y>253</y>
+        <width>150</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>150</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>-120,0;120,0</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane6_Sec_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>258</x>
+        <y>253</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>100</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane6_UD_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>262</x>
+        <y>401</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane6_Label1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>253</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>50</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>轨迹点</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane6_Label2">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>253</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>秒</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane6_SoundPoint_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>136</x>
+        <y>289</y>
+        <width>80</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>1,150,20</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="Page1_label1">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>565</y>
+       <width>40</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>40</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>40</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>命令</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="HoverFillButton" name="Page1_OrderSend_Btn">
+     <property name="geometry">
+      <rect>
+       <x>285</x>
+       <y>565</y>
+       <width>80</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>发送</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Page1_OftenUse_Btn">
+     <property name="geometry">
+      <rect>
+       <x>205</x>
+       <y>565</y>
+       <width>75</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>75</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>75</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>常用命令</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Page1_OrderInput_lineEdit">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>565</y>
+       <width>150</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="PanelItem" name="Page1_Pane7" native="true">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>0</y>
+       <width>200</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>200</width>
+       <height>200</height>
+      </size>
+     </property>
+     <widget class="QLabel" name="Page1_Pane7_Label1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>22</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>俯仰</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane7_Pitch_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>22</y>
+        <width>120</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane7_Label2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>57</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>横滚</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane7_Roll_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>57</y>
+        <width>120</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane7_Yaw_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>92</y>
+        <width>120</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane7_Label3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>92</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>航向</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Page1_Pane7_CloseTorque_checkBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>138</y>
+        <width>85</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>关闭力矩</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane7_SetValue_Btn">
+      <property name="geometry">
+       <rect>
+        <x>105</x>
+        <y>132</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>设置</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane7_Label4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>170</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>输入范围: ±2048</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="PanelItem" name="Page1_Pane8" native="true">
+     <property name="geometry">
+      <rect>
+       <x>765</x>
+       <y>0</y>
+       <width>150</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>200</height>
+      </size>
+     </property>
+     <widget class="QLabel" name="Page1_Pane8_Label1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>22</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>俯仰</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane8_Pitch_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>22</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane8_Label2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>57</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>横滚</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane8_Roll_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>57</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane8_Yaw_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>92</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane8_Label3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>92</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>航向</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane8_SetValue_Btn">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>132</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>设置</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="PanelItem" name="Page1_Pane9" native="true">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>205</y>
+       <width>200</width>
+       <height>180</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>180</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>200</width>
+       <height>180</height>
+      </size>
+     </property>
+     <widget class="QLabel" name="Page1_Pane9_Label1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>22</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>俯仰</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane9_Pitch_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>22</y>
+        <width>120</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane9_Label2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>57</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>横滚</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane9_Roll_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>57</y>
+        <width>120</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane9_Yaw_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>92</y>
+        <width>120</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane9_Label3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>92</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>航向</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane9_SetValue_Btn">
+      <property name="geometry">
+       <rect>
+        <x>105</x>
+        <y>132</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>设置</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane9_GetValue_Btn">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>132</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>查询</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="PanelItem" name="Page1_Pane10" native="true">
+     <property name="geometry">
+      <rect>
+       <x>765</x>
+       <y>205</y>
+       <width>200</width>
+       <height>180</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>180</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>200</width>
+       <height>180</height>
+      </size>
+     </property>
+     <widget class="QLabel" name="Page1_Pane10_Label1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>22</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>俯仰</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane10_Pitch_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>22</y>
+        <width>120</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0.00</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane10_Yaw_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>57</y>
+        <width>120</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0.00</string>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane10_Label2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>57</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>航向</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane10_SetValue_Btn">
+      <property name="geometry">
+       <rect>
+        <x>105</x>
+        <y>97</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>设置</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane10_GetValue_Btn">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>97</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>读取</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane10_Label3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>140</y>
+        <width>161</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>输入范围: -30.00° ~ 30.00°</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="PanelItem" name="Page1_Pane11" native="true">
+     <property name="geometry">
+      <rect>
+       <x>920</x>
+       <y>0</y>
+       <width>150</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>200</height>
+      </size>
+     </property>
+     <widget class="QLabel" name="Page1_Pane11_Label1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>22</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>俯仰</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane11_Pitch_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>22</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane11_Label2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>57</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>横滚</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page1_Pane11_Roll_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>57</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane11_SetValue_Btn">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>137</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>设置</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane11_GetValue_Btn">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>99</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>读取</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page1_Pane7_Label4_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>173</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>输入范围: ±100</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="PanelItem" name="Page1_Pane12" native="true">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>390</y>
+       <width>510</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>510</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>510</width>
+       <height>200</height>
+      </size>
+     </property>
+     <widget class="HoverFillButton" name="Page1_Pane12_ShutDown_Btn">
+      <property name="geometry">
+       <rect>
+        <x>18</x>
+        <y>23</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>关机</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane12_Restart_Btn">
+      <property name="geometry">
+       <rect>
+        <x>113</x>
+        <y>23</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>重启</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane12_CalibrationClear_Btn">
+      <property name="geometry">
+       <rect>
+        <x>208</x>
+        <y>111</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>校准清除</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane12_ExecutePanorama_Btn">
+      <property name="geometry">
+       <rect>
+        <x>113</x>
+        <y>155</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>执行全景</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane12_NotControl_Btn">
+      <property name="geometry">
+       <rect>
+        <x>113</x>
+        <y>67</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>无控</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane12_StartPanorama_Btn">
+      <property name="geometry">
+       <rect>
+        <x>18</x>
+        <y>155</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>开始全景</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane12_ReadHall_Btn">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>111</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>读霍尔</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane12_RollLedOn_Btn">
+      <property name="geometry">
+       <rect>
+        <x>18</x>
+        <y>111</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>横滚灯亮</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane12_Selfie_Btn">
+      <property name="geometry">
+       <rect>
+        <x>208</x>
+        <y>23</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>自拍</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane12_RollLedOff_Btn">
+      <property name="geometry">
+       <rect>
+        <x>113</x>
+        <y>111</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>横滚灯灭</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane12_ReturnCenter_Btn">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>23</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>回中</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane12_RightControl_Btn">
+      <property name="geometry">
+       <rect>
+        <x>208</x>
+        <y>67</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>右控</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane12_HVSwitch_Btn">
+      <property name="geometry">
+       <rect>
+        <x>398</x>
+        <y>23</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>HV切换</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane12_ReadHandlePlate_Btn">
+      <property name="geometry">
+       <rect>
+        <x>398</x>
+        <y>111</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>读手柄板</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane12_ExitPanorama_Btn">
+      <property name="geometry">
+       <rect>
+        <x>208</x>
+        <y>155</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>退出全景</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane12_QuickFollow_Btn">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>67</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>快速跟随</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane12_LeftControl_Btn">
+      <property name="geometry">
+       <rect>
+        <x>18</x>
+        <y>67</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>左控</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page1_Pane12_QuickFollowExit_Btn">
+      <property name="geometry">
+       <rect>
+        <x>398</x>
+        <y>67</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>退出快速跟随</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="Page1_label2">
+     <property name="geometry">
+      <rect>
+       <x>980</x>
+       <y>215</y>
+       <width>100</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>设备运行时间</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Page1_DeviceRunTime_lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>980</x>
+       <y>251</y>
+       <width>100</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Page1_RecPackParsePack_lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>980</x>
+       <y>325</y>
+       <width>100</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string>0/0</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Page1_label3">
+     <property name="geometry">
+      <rect>
+       <x>980</x>
+       <y>289</y>
+       <width>100</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>收包/解包</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Page1_label4">
+     <property name="geometry">
+      <rect>
+       <x>970</x>
+       <y>359</y>
+       <width>50</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>丢包率</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Page1_PacketLossRate_lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>1023</x>
+       <y>359</y>
+       <width>65</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string>0.000 %</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Page2">
+    <widget class="PanelItem" name="Page2_Pane1" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>440</width>
+       <height>140</height>
+      </rect>
+     </property>
+     <widget class="QLabel" name="Page2_Pane1_Label1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>90</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>机型</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page2_Pane1_Label3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>90</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PC地址</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="Bsp_ComBoBox" name="Page2_Pane1_Model_comboBox">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>20</y>
+        <width>200</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="Bsp_ComBoBox" name="Page2_Pane1_PCAddr_comboBox">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>60</y>
+        <width>200</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page2_Pane1_DefaultValue_Btn">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>20</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>缺省值</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page2_Pane1_Apply_Btn">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>55</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>应用</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Page2_Pane1_NotWaitIdleFrames_checkBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>100</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>不等待空闲帧</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="PanelItem" name="Page2_Pane2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>145</y>
+       <width>740</width>
+       <height>190</height>
+      </rect>
+     </property>
+     <widget class="PanelItem" name="Page2_Pane2_1" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>190</width>
+        <height>140</height>
+       </rect>
+      </property>
+      <widget class="QLabel" name="Page2_Pane2_1_label1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>24</y>
+         <width>40</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>KP</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="Page2_Pane2_1_KP_lineEdit">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>24</y>
+         <width>120</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="mouseTracking">
+        <bool>true</bool>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="text">
+        <string>0.0000</string>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Normal</enum>
+       </property>
+       <property name="readOnly">
+        <bool>false</bool>
+       </property>
+       <property name="clearButtonEnabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Page2_Pane2_1_label2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>59</y>
+         <width>40</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>KI</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="Page2_Pane2_1_KI_lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>59</y>
+         <width>120</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="text">
+        <string>0.0000</string>
+       </property>
+       <property name="readOnly">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="Page2_Pane2_1_KD_lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>94</y>
+         <width>120</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="text">
+        <string>0.0000</string>
+       </property>
+       <property name="readOnly">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Page2_Pane2_1_label3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>94</y>
+         <width>40</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>KD</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="PanelItem" name="Page2_Pane2_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>30</y>
+        <width>190</width>
+        <height>140</height>
+       </rect>
+      </property>
+      <widget class="QLabel" name="Page2_Pane2_2_label1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>24</y>
+         <width>40</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>KP</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="Page2_Pane2_2_KP_lineEdit">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>24</y>
+         <width>120</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="mouseTracking">
+        <bool>true</bool>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="text">
+        <string>0.0000</string>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Normal</enum>
+       </property>
+       <property name="readOnly">
+        <bool>false</bool>
+       </property>
+       <property name="clearButtonEnabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Page2_Pane2_2_label2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>59</y>
+         <width>40</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>KI</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="Page2_Pane2_2_KI_lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>59</y>
+         <width>120</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="text">
+        <string>0.0000</string>
+       </property>
+       <property name="readOnly">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="Page2_Pane2_2_KD_lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>94</y>
+         <width>120</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="text">
+        <string>0.0000</string>
+       </property>
+       <property name="readOnly">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Page2_Pane2_2_label3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>94</y>
+         <width>40</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>KD</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="PanelItem" name="Page2_Pane2_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>30</y>
+        <width>190</width>
+        <height>140</height>
+       </rect>
+      </property>
+      <widget class="QLabel" name="Page2_Pane2_3_label1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>24</y>
+         <width>40</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>KP</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="Page2_Pane2_3_KP_lineEdit">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>24</y>
+         <width>120</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="mouseTracking">
+        <bool>true</bool>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="text">
+        <string>0.0000</string>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Normal</enum>
+       </property>
+       <property name="readOnly">
+        <bool>false</bool>
+       </property>
+       <property name="clearButtonEnabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Page2_Pane2_3_label2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>59</y>
+         <width>40</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>KI</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="Page2_Pane2_3_KI_lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>59</y>
+         <width>120</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="text">
+        <string>0.0000</string>
+       </property>
+       <property name="readOnly">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="Page2_Pane2_3_KD_lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>94</y>
+         <width>120</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="text">
+        <string>0.0000</string>
+       </property>
+       <property name="readOnly">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Page2_Pane2_3_label3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>94</y>
+         <width>40</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>KD</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="HoverFillButton" name="Page2_Pane2_GetValue_Btn">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>30</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>读取</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page2_Pane2_SetValue_Btn">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>70</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>设置</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="PanelItem" name="Page2_Pane3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>340</y>
+       <width>350</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <widget class="QLineEdit" name="Page2_Pane3_StickYawSpeed_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>115</y>
+        <width>120</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page2_Pane3_label1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>摇杆俯仰速度</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page2_Pane3_StickPitchSpeed_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>80</y>
+        <width>120</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page2_Pane3_label2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>115</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>摇杆航向速度</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Page2_Pane3_PitchStickReverse_checkBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>120</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>俯仰摇杆反向</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Page2_Pane3_YawRockerReverse_checkBox">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>20</y>
+        <width>120</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>航向摇杆反向</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page2_Pane3_label3">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>57</y>
+        <width>106</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>输入范围: 0~100级</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page2_Pane3_DefaultValue_Btn">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>46</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>缺省</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page2_Pane3_SetValue_Btn">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>81</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>设置</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page2_Pane3_GetValue_Btn">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>116</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>读取</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="PanelItem" name="Page2_Pane4" native="true">
+     <property name="geometry">
+      <rect>
+       <x>355</x>
+       <y>340</y>
+       <width>440</width>
+       <height>190</height>
+      </rect>
+     </property>
+     <widget class="QLineEdit" name="Page2_Pane4_PitchDeadZone_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>63</y>
+        <width>120</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page2_Pane4_label1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>26</y>
+        <width>75</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>航向死区</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page2_Pane4_YawDeadZone_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>23</y>
+        <width>120</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page2_Pane4_label2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>66</y>
+        <width>75</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>俯仰死区</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page2_Pane4_DefaultValue_Btn">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>32</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>缺省</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page2_Pane4_SetValue_Btn">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>67</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>设置</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page2_Pane4_GetValue_Btn">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>102</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>读取</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page2_Pane4_label3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>106</y>
+        <width>75</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>航向速度</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page2_Pane4_YawSpeed_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>103</y>
+        <width>120</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page2_Pane4_PitchSpeed_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>143</y>
+        <width>120</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page2_Pane4_label4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>146</y>
+        <width>75</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>俯仰速度</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page2_Pane4_label5">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>28</y>
+        <width>106</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>输入范围: 0~60级</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page2_Pane4_label6">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>108</y>
+        <width>106</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>输入范围: 0~60级</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Page3">
+    <widget class="PanelItem" name="Page3_Pane1" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>450</width>
+       <height>130</height>
+      </rect>
+     </property>
+     <widget class="QLabel" name="Page3_Pane1_label1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>70</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>321文件</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page3_Pane1_ChooseFile_Btn">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>80</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>选择文件</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page3_Pane1_Update_Btn">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>80</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>更新</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page3_Pane1_321File_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>40</y>
+        <width>350</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="PanelItem" name="Page3_Pane2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>455</x>
+       <y>0</y>
+       <width>450</width>
+       <height>130</height>
+      </rect>
+     </property>
+     <widget class="QLabel" name="Page3_Pane2_label1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>70</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>BIN文件</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page3_Pane2_ChooseFile_Btn">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>80</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>选择文件</string>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page3_Pane2_Update_Btn">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>80</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>更新</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page3_Pane2_BinFile_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>40</y>
+        <width>350</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="PanelItem" name="Page3_Pane3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>135</y>
+       <width>360</width>
+       <height>130</height>
+      </rect>
+     </property>
+     <widget class="QLabel" name="Page3_Pane3_label1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>70</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>云台</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page3_Pane3_label2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>75</y>
+        <width>70</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>手柄</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page3_Pane3_PTZ_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>40</y>
+        <width>250</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page3_Pane3_Handle_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>75</y>
+        <width>250</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="NavLabel" name="Page3_UpdateSchedule_label">
+     <property name="geometry">
+      <rect>
+       <x>513</x>
+       <y>540</y>
+       <width>80</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>更新进度</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="ProgressColor" name="Page3_Update_progressBar" native="true">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>540</y>
+       <width>470</width>
+       <height>40</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QScrollBar" name="Page3_BinFileTextEdit_scrollBar">
+     <property name="geometry">
+      <rect>
+       <x>1055</x>
+       <y>170</y>
+       <width>16</width>
+       <height>360</height>
+      </rect>
+     </property>
+     <property name="toolTipDuration">
+      <number>-1</number>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="tracking">
+      <bool>true</bool>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="invertedAppearance">
+      <bool>false</bool>
+     </property>
+     <property name="invertedControls">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="Page3_BinFile_textEdit">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>170</y>
+       <width>611</width>
+       <height>360</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::ClickFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Page3_label1">
+     <property name="geometry">
+      <rect>
+       <x>931</x>
+       <y>136</y>
+       <width>120</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>BIN文件内容区</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Page3_label2">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>136</y>
+       <width>50</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>行数</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Page3_LineNumber_lineEdit">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>137</y>
+       <width>90</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Page3_ByteSum_lineEdit">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>136</y>
+       <width>90</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Page3_label3">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>136</y>
+       <width>60</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>总字节数</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="HoverFillButton" name="Page3_ClearDisplay_Btn">
+     <property name="geometry">
+      <rect>
+       <x>812</x>
+       <y>136</y>
+       <width>80</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>清空显示</string>
+     </property>
+    </widget>
+    <zorder>Page3_BinFile_textEdit</zorder>
+    <zorder>Page3_Pane1</zorder>
+    <zorder>Page3_Pane2</zorder>
+    <zorder>Page3_Pane3</zorder>
+    <zorder>Page3_UpdateSchedule_label</zorder>
+    <zorder>Page3_Update_progressBar</zorder>
+    <zorder>Page3_BinFileTextEdit_scrollBar</zorder>
+    <zorder>Page3_label1</zorder>
+    <zorder>Page3_label2</zorder>
+    <zorder>Page3_LineNumber_lineEdit</zorder>
+    <zorder>Page3_ByteSum_lineEdit</zorder>
+    <zorder>Page3_label3</zorder>
+    <zorder>Page3_ClearDisplay_Btn</zorder>
+   </widget>
+   <widget class="QWidget" name="Page4">
+    <widget class="PanelItem" name="Page4_Pane1" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>290</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <widget class="QLabel" name="Page4_Pane1_label1">
+      <property name="geometry">
+       <rect>
+        <x>123</x>
+        <y>40</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>X轴</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page4_Pane1_IMU_NoiseTest_Btn">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>80</width>
+        <height>55</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>IMU噪声
+测试</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page4_Pane1_label2">
+      <property name="geometry">
+       <rect>
+        <x>123</x>
+        <y>80</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Y轴</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page4_Pane1_label3">
+      <property name="geometry">
+       <rect>
+        <x>123</x>
+        <y>120</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Z轴</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page4_Pane1_X_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>173</x>
+        <y>40</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page4_Pane1_Y_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>173</x>
+        <y>80</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page4_Pane1_Z_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>173</x>
+        <y>120</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="PanelItem" name="Page4_Pane2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>295</x>
+       <y>0</y>
+       <width>490</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <widget class="QLabel" name="Page4_Pane2_label1">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>40</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>X轴</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="HoverFillButton" name="Page4_Pane2_IMUZeroOffset_Btn">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>80</width>
+        <height>55</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>IMU零偏
+测试</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page4_Pane2_label2">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>80</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Y轴</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page4_Pane2_label3">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>120</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Z轴</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page4_Pane2_XAfterCalibration_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>40</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page4_Pane2_YAfterCalibration_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>80</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page4_Pane2_ZAfterCalibration_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>120</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page4_Pane2_label7">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>120</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Z轴</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page4_Pane2_YOriginal_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>80</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page4_Pane2_ZOriginal_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>120</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page4_Pane2_label5">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>40</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>X轴</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page4_Pane2_XOriginal_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>40</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page4_Pane2_label6">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>80</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Y轴</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page4_Pane2_label4">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>20</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>校准后零偏</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page4_Pane2_label8">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>20</y>
+        <width>106</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>原始零偏</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="HoverFillButton" name="Page4_Experience_Btn">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>230</y>
+       <width>80</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>一键体检</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="Page4_Experience_textEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>410</width>
+       <height>170</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QScrollBar" name="Page4_ExperienceTextEdit_scrollBar">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>170</y>
+       <width>20</width>
+       <height>170</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="HoverFillButton" name="Page4_ClearTest_Btn">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>170</y>
+       <width>80</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>清空IMU
+测试数据</string>
+     </property>
+    </widget>
+    <widget class="PanelItem" name="Page4_Pane3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>0</y>
+       <width>281</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <widget class="HoverFillButton" name="Page4_Pane3_YawDriftSpeedTest_Btn">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>80</width>
+        <height>55</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>航向漂移
+速度测试</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Page4_Pane3_YawDriftSpeedTest_lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>109</x>
+        <y>40</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Page4_Pane3_label1">
+      <property name="geometry">
+       <rect>
+        <x>203</x>
+        <y>39</y>
+        <width>51</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>°/秒</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Page5">
+    <widget class="QTextEdit" name="Page5_SerialDebug_textEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>730</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="lineWrapMode">
+      <enum>QTextEdit::WidgetWidth</enum>
+     </property>
+     <property name="lineWrapColumnOrWidth">
+      <number>0</number>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QScrollBar" name="Page5_SerialDebugTextEdit_scrollBar">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>10</y>
+       <width>20</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Page5_label3">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>30</y>
+       <width>80</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>数据位</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="Bsp_ComBoBox" name="Page5_SerialDataBit_comboBox">
+     <property name="geometry">
+      <rect>
+       <x>855</x>
+       <y>30</y>
+       <width>200</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Page5_label4">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>70</y>
+       <width>80</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>停止位</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="Bsp_ComBoBox" name="Page5_SerialStopBit_comboBox">
+     <property name="geometry">
+      <rect>
+       <x>855</x>
+       <y>70</y>
+       <width>200</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Page5_label5">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>110</y>
+       <width>80</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>校验位</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="Bsp_ComBoBox" name="Page5_SerialCheckBit_comboBox">
+     <property name="geometry">
+      <rect>
+       <x>855</x>
+       <y>110</y>
+       <width>200</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="Page5_HexDisplay_checkBox">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>240</y>
+       <width>110</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>16进制显示</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="Page5_RxWordWrap_checkBox">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>280</y>
+       <width>90</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>自动换行</string>
+     </property>
+    </widget>
+    <widget class="QScrollBar" name="Debug_TextEdit_ScrollBar_2">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>450</y>
+       <width>20</width>
+       <height>75</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="Page5_SerialSend_textEdit">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>420</y>
+       <width>500</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QScrollBar" name="Page5_SerialSendTextEdit_scrollBar">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>420</y>
+       <width>20</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="HoverFillButton" name="Page5_DataSend_Btn">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>460</y>
+       <width>90</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>90</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>发送</string>
+     </property>
+    </widget>
+    <widget class="HoverFillButton" name="Page5_DataClearSend_Btn">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>460</y>
+       <width>90</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>90</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>清除发送</string>
+     </property>
+    </widget>
+    <widget class="HoverFillButton" name="Page5_ClearReceive_Btn">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>320</y>
+       <width>90</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>90</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>清空接收</string>
+     </property>
+    </widget>
+    <widget class="HoverFillButton" name="Page5_StopReceive_Btn">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>360</y>
+       <width>90</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>90</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>停止接收</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="Page5_HexSend_checkBox">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>420</y>
+       <width>100</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>16进制发送</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="Page5_TxWordWrap_checkBox">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>420</y>
+       <width>90</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>自动换行</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="Page5_TimingSend_checkBox">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>500</y>
+       <width>90</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>定时发送</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Page5_Cycle_lineEdit">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>840</x>
+       <y>500</y>
+       <width>100</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Page5_label6">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>500</y>
+       <width>40</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>周期</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Page5_label7">
+     <property name="geometry">
+      <rect>
+       <x>940</x>
+       <y>500</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="text">
+      <string>ms</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Page5_label8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>430</y>
+       <width>35</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Rx</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Page5_label9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>480</y>
+       <width>35</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Tx</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Page5_RxCount_lineEdit">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>430</y>
+       <width>100</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Page5_TxCount_lineEdit">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>480</y>
+       <width>100</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Page1_Pane7_Label4_3">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>180</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>true</underline>
+      </font>
+     </property>
+     <property name="text">
+      <string>提示：如果出现显示乱码请点&quot;16进制显示&quot;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Page6">
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>220</y>
+       <width>331</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>26</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>待开发</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Page7">
+    <widget class="NavBar" name="Page7_navBar" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1090</width>
+       <height>51</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="Page7_stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>1090</width>
+       <height>540</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="Page7_page1">
+      <widget class="QLabel" name="Top_label1_2">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>20</y>
+         <width>171</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>💥免责说明💥</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="Page7_page2"/>
+     <widget class="QWidget" name="Page7_page3">
+      <widget class="ImageAnimation" name="Page7_page3_Image" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>230</width>
+         <height>480</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Page7_label1">
+       <property name="geometry">
+        <rect>
+         <x>22</x>
+         <y>500</y>
+         <width>200</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>13</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widgetLeft" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>45</y>
+     <width>100</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <widget class="NavBar" name="left_navBar" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>100</width>
+      <height>600</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="closeBtn">
+   <property name="geometry">
+    <rect>
+     <x>1170</x>
+     <y>0</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>✖</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="smallBtn">
+   <property name="geometry">
+    <rect>
+     <x>1140</x>
+     <y>0</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>━</string>
+   </property>
+  </widget>
+  <widget class="LcdDateTime" name="LcdTime" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>190</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>190</width>
+     <height>22</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>190</width>
+     <height>22</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="NavLabel" name="navLabel_1">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>704</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>校准进度</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="Debug_TextEdit">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>700</y>
+     <width>410</width>
+     <height>75</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>410</width>
+     <height>75</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>410</width>
+     <height>75</height>
+    </size>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOn</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QScrollBar" name="Debug_TextEdit_ScrollBar">
+   <property name="geometry">
+    <rect>
+     <x>405</x>
+     <y>700</y>
+     <width>20</width>
+     <height>75</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="HoverFillButton" name="Debug_Clear_Btn">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>700</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>90</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>90</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>清空调试区</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="Debug_SaveLog_CheckBox">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>750</y>
+     <width>85</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存日志</string>
+   </property>
+  </widget>
+  <widget class="SwitchButton" name="Serial_Switch_Btn" native="true">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>10</y>
+     <width>90</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Top_label3">
+   <property name="geometry">
+    <rect>
+     <x>849</x>
+     <y>10</y>
+     <width>30</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>30</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>30</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>ID</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Top_ICID_lineEdit">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>889</x>
+     <y>9</y>
+     <width>230</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_ZeroAngleCalibration" native="true">
+   <property name="geometry">
+    <rect>
+     <x>563</x>
+     <y>654</y>
+     <width>80</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>80</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>80</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_MotorCalibration" native="true">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>654</y>
+     <width>80</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>80</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>80</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_Running" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1103</x>
+     <y>654</y>
+     <width>50</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>50</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>50</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_PB" native="true">
+   <property name="geometry">
+    <rect>
+     <x>394</x>
+     <y>654</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_RollCommunication" native="true">
+   <property name="geometry">
+    <rect>
+     <x>46</x>
+     <y>654</y>
+     <width>80</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>80</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>80</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_IMU" native="true">
+   <property name="geometry">
+    <rect>
+     <x>212</x>
+     <y>654</y>
+     <width>50</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>50</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>50</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_FollowRPY" native="true">
+   <property name="geometry">
+    <rect>
+     <x>831</x>
+     <y>654</y>
+     <width>50</width>
+     <height>40</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_BE" native="true">
+   <property name="geometry">
+    <rect>
+     <x>265</x>
+     <y>654</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_RB" native="true">
+   <property name="geometry">
+    <rect>
+     <x>351</x>
+     <y>654</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_TE" native="true">
+   <property name="geometry">
+    <rect>
+     <x>308</x>
+     <y>654</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_YawCommunication" native="true">
+   <property name="geometry">
+    <rect>
+     <x>129</x>
+     <y>654</y>
+     <width>80</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>80</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>80</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_AccelerateCalibration" native="true">
+   <property name="geometry">
+    <rect>
+     <x>646</x>
+     <y>654</y>
+     <width>80</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>80</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>80</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_GyroCalibration" native="true">
+   <property name="geometry">
+    <rect>
+     <x>729</x>
+     <y>654</y>
+     <width>99</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>99</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>99</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_HorizontalShootingMode" native="true">
+   <property name="geometry">
+    <rect>
+     <x>937</x>
+     <y>654</y>
+     <width>80</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>80</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>80</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_CommonMode" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>654</y>
+     <width>80</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>80</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>80</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_YB" native="true">
+   <property name="geometry">
+    <rect>
+     <x>437</x>
+     <y>654</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Bottom_label1">
+   <property name="geometry">
+    <rect>
+     <x>547</x>
+     <y>701</y>
+     <width>180</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>AC云台(V24.2.2)(内测版)</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="Bsp_ComBoBox" name="Top_SerialBaund_comboBox">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>10</y>
+     <width>130</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>130</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>130</width>
+     <height>16777215</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="Bsp_ComBoBox" name="Top_SerialPort_comboBox">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>10</y>
+     <width>130</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>130</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Top_label2">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>12</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>波特率</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Top_label1">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>12</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>端口</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="HoverFillButton" name="Bottom_LogPath_Btn">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>742</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>90</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>90</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>日志路径</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Top_label4">
+   <property name="geometry">
+    <rect>
+     <x>704</x>
+     <y>10</y>
+     <width>70</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>固件版本</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Top_ICVersion_lineEdit">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>784</x>
+     <y>9</y>
+     <width>50</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Bottom__RackNumber_lineEdit">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>704</x>
+     <y>747</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Bottom_label2">
+   <property name="geometry">
+    <rect>
+     <x>629</x>
+     <y>751</y>
+     <width>70</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>机架编号</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Bottom__CompileTime_lineEdit">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>936</x>
+     <y>747</y>
+     <width>110</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Bottom_label3">
+   <property name="geometry">
+    <rect>
+     <x>861</x>
+     <y>751</y>
+     <width>70</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>编译时间</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Bottom__ConfigVersion1_lineEdit">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>747</y>
+     <width>60</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Bottom_label4">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>751</y>
+     <width>75</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>配置版本1</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_Fllow_Y" native="true">
+   <property name="geometry">
+    <rect>
+     <x>909</x>
+     <y>654</y>
+     <width>25</width>
+     <height>40</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_Fllow_P" native="true">
+   <property name="geometry">
+    <rect>
+     <x>889</x>
+     <y>654</y>
+     <width>25</width>
+     <height>40</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="StepProgress" name="step_Fllow_R" native="true">
+   <property name="geometry">
+    <rect>
+     <x>869</x>
+     <y>654</y>
+     <width>25</width>
+     <height>40</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Bottom_label5">
+   <property name="geometry">
+    <rect>
+     <x>838</x>
+     <y>704</y>
+     <width>71</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string>无</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Bottom_label6">
+   <property name="geometry">
+    <rect>
+     <x>914</x>
+     <y>704</y>
+     <width>71</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>NavBar</class>
+   <extends>QWidget</extends>
+   <header>Navbar.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Bsp_ComBoBox</class>
+   <extends>QComboBox</extends>
+   <header>Bsp_ComBoBox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>PanelItem</class>
+   <extends>QWidget</extends>
+   <header>panelitem.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>LcdDateTime</class>
+   <extends>QWidget</extends>
+   <header>LcdDateTime.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StepProgress</class>
+   <extends>QWidget</extends>
+   <header>StepProgress.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>NavLabel</class>
+   <extends>QLabel</extends>
+   <header>NavLabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>HoverFillButton</class>
+   <extends>QPushButton</extends>
+   <header>HoverFillButton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>SwitchButton</class>
+   <extends>QWidget</extends>
+   <header>SwitchButton.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ProgressColor</class>
+   <extends>QWidget</extends>
+   <header>ProgressColor.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ImageAnimation</class>
+   <extends>QWidget</extends>
+   <header location="global">ImageAnimation.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="Mainwindow.qrc"/>
+ </resources>
+ <connections/>
+</ui>

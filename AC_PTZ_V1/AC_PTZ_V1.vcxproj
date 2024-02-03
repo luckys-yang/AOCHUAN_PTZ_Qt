@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+***************************************************************************************************
+ Copyright (C) 2023 The Qt Company Ltd.
+ SPDX-License-Identifier: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+***************************************************************************************************
+-->
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6F864907-875A-4852-BB1A-33AA638A88E2}</ProjectGuid>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0.20348.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0.20348.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
+    <QtInstall>6.5.3_mingw_64</QtInstall>
+    <QtModules>core;gui;qml;widgets;serialport</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
+    <QtInstall>6.5.3_mingw_64</QtInstall>
+    <QtModules>core;gui;widgets;serialport</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AppSettings.cpp" />
+    <ClCompile Include="Bsp_ComBoBox.cpp" />
+    <ClCompile Include="FlatUI.cpp" />
+    <ClCompile Include="HoverFillButton.cpp" />
+    <ClCompile Include="ImageAnimation.cpp" />
+    <ClCompile Include="LcdDateTime.cpp" />
+    <ClCompile Include="MainPage1.cpp" />
+    <ClCompile Include="MainPage2.cpp" />
+    <ClCompile Include="MainPage3.cpp" />
+    <ClCompile Include="MainPage4.cpp" />
+    <ClCompile Include="MainPage5.cpp" />
+    <ClCompile Include="MainPage6.cpp" />
+    <ClCompile Include="MainPage7.cpp" />
+    <ClCompile Include="MainTopBottom.cpp" />
+    <ClCompile Include="NavBar.cpp" />
+    <ClCompile Include="NavLabel.cpp" />
+    <ClCompile Include="NavProgress.cpp" />
+    <ClCompile Include="Panelitem.cpp" />
+    <ClCompile Include="ProgressColor.cpp" />
+    <ClCompile Include="ProgressPercent.cpp" />
+    <ClCompile Include="Progresswait.cpp" />
+    <ClCompile Include="PublicClass.cpp" />
+    <ClCompile Include="QTTest.cpp" />
+    <ClCompile Include="SaveLog.cpp" />
+    <ClCompile Include="SerialThread.cpp" />
+    <ClCompile Include="StepProgress.cpp" />
+    <ClCompile Include="SwitchButton.cpp" />
+    <ClCompile Include="TextMoveWidget.cpp" />
+    <QtRcc Include="Mainwindow.qrc" />
+    <QtUic Include="Mainwindow.ui">
+      <QtUicDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.</QtUicDir>
+    </QtUic>
+    <QtMoc Include="Mainwindow.h" />
+    <ClCompile Include="HintMessage.cpp" />
+    <ClCompile Include="Loginview.cpp" />
+    <ClCompile Include="Mainwindow.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Loginview.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\CSS\HintMessage.css" />
+    <None Include="Resource\CSS\Loginview.css" />
+    <None Include="Resource\CSS\Mainwindow.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\AC_logo1.ico" />
+    <Image Include="Resource\Images\AC_logo.png" />
+    <Image Include="Resource\Images\type_error.png" />
+    <Image Include="Resource\Images\type_infomation.png" />
+    <Image Include="Resource\Images\type_success.png" />
+    <Image Include="Resource\Images\type_warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="HintMessage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="NavProgress.h" />
+    <QtMoc Include="StepProgress.h" />
+    <QtMoc Include="NavLabel.h" />
+    <QtMoc Include="SaveLog.h" />
+    <QtMoc Include="SwitchButton.h" />
+    <QtMoc Include="TextMoveWidget.h" />
+    <QtMoc Include="ProgressColor.h" />
+    <QtMoc Include="Bsp_ComBoBox.h" />
+    <QtMoc Include="MainPage1.h" />
+    <QtMoc Include="AppSettings.h" />
+    <QtMoc Include="MainPage2.h" />
+    <QtMoc Include="MainPage3.h" />
+    <QtMoc Include="MainPage4.h" />
+    <QtMoc Include="MainTopBottom.h" />
+    <QtMoc Include="MainPage5.h" />
+    <QtMoc Include="MainPage6.h" />
+    <QtMoc Include="SerialThread.h" />
+    <QtMoc Include="ProgressPercent.h" />
+    <QtMoc Include="MainPage7.h" />
+    <QtMoc Include="ImageAnimation.h" />
+    <ClInclude Include="Protocol.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ui_Mainwindow.h" />
+    <QtMoc Include="QTTest.h" />
+    <QtMoc Include="NavBar.h" />
+    <QtMoc Include="Progresswait.h" />
+    <QtMoc Include="HoverFillButton.h" />
+    <QtMoc Include="Panelitem.h" />
+    <QtMoc Include="LcdDateTime.h" />
+    <QtMoc Include="FlatUI.h" />
+    <ClInclude Include="PublicClass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AC_PTZ_V1.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

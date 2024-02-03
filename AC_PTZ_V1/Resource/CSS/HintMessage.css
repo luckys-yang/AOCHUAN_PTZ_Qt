@@ -1,0 +1,57 @@
+/*成功信息*/
+QWidget#HintMessage_Success_item {
+    border: 1px solid #E1F3D8;
+    background-color: rgb(240,249,235);
+    border-radius: 30px;
+}
+
+QLabel#HintMessage_Success_Lable {
+    border: none;
+    background-color: rgb(240,249,235);
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(103,194,58);
+}
+
+/*错误信息*/
+QWidget#HintMessage_Error_item {
+    border: 1px solid #FDE2E2;
+    background-color: #FEF0F0;
+    border-radius: 30px;
+}
+
+QLabel#HintMessage_Error_Lable {
+    border: none;
+    background-color: #FEF0F0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(245,108,108);
+}
+/*警告信息*/
+QWidget#HintMessage_Warning_item {
+    border: 1px solid #FAECD8;
+    background-color: #FDF6EC;
+    border-radius: 30px;
+}
+
+QLabel#HintMessage_Warning_Lable {
+    border: none;
+    background-color: #FDF6EC;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(230,162,60);
+}
+/*信息信息*/
+QWidget#HintMessage_Information_item {
+    border: 1px solid #EBEEF5;
+    background-color: #EDF2FC;
+    border-radius: 30px;
+}
+
+QLabel#HintMessage_Information_Lable {
+    border: none;
+    background-color: #EDF2FC;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(144,147,153);
+}

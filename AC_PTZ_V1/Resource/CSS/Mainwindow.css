@@ -1,0 +1,234 @@
+/*每一页背景 begin*/
+QWidget#Page1 {
+    /*    background-color: rgb(216,233,242);*/ /*浅蓝*/
+    background-color: rgb(245,239,236);
+    border-radius: 5px; /*圆角*/
+}
+
+QWidget#Page2 {
+    background-color: rgb(245,239,236);
+    border-radius: 5px; /*圆角*/
+}
+
+QWidget#Page3 {
+    background-color: rgb(245,239,236);
+    border-radius: 5px; /*圆角*/
+}
+
+QWidget#Page4 {
+    background-color: rgb(245,239,236);
+    border-radius: 5px; /*圆角*/
+}
+
+QWidget#Page5 {
+    background-color: rgb(245,239,236);
+    border-radius: 5px; /*圆角*/
+}
+
+QWidget#Page6 {
+    background-color: rgb(245,239,236);
+    border-radius: 5px; /*圆角*/
+}
+
+QWidget#Page7_page1 {
+    background-color: rgba(245,239,236, 0.7);
+    border-radius: 5px; /*圆角*/
+}
+
+QWidget#Page7_page2 {
+    background-color: rgba(245,239,236, 0.7);
+    border-radius: 5px; /*圆角*/
+}
+
+QWidget#Page7_page3 {
+    background-color: rgba(245,239,236, 0.7);
+    border-radius: 5px; /*圆角*/
+}
+
+/*每一页背景 end*/
+/*串口下拉框样式 begin*/
+QComboBox {
+    color: #000000; /* 设置文本颜色为黑色 */
+    border: 2px solid #60696f; /* 设置边框为2像素宽的实线，颜色 */
+    border-radius: 5px; /* 设置边框的圆角半径为4像素 */
+    background: transparent; /* 设置背景为透明 */
+}
+
+    QComboBox:hover {
+        border-radius: 5px;
+        border: 2px solid #148ede;
+    }
+
+    /* 下拉框样式 */
+    QComboBox::drop-down {
+        background: transparent; /* 设置下拉按钮的背景为透明 */
+    }
+    QComboBox::down-arrow {
+        image: url(:/Mainwindow/Resource/Images/DropDownBox.png); /* 设置下拉箭头的图片 */
+    }
+        QComboBox::down-arrow:enabled {
+            color: transparent; /*下拉箭头在启用状态时的外观 这样在启用状态下箭头将不可见*/
+        }
+
+    QComboBox QAbstractItemView {
+        outline: 0px solid gray; /* 移除 QAbstractItemView 的灰色边框 */
+        border: 1px solid transparent; /* 移除边框 */
+        color: #000000; /* 设置文本颜色为黑色 */
+        background-color: lightgrey; /* 设置背景颜色为淡灰色 */
+        selection-background-color: transparent; /* 设置选中项的背景为透明 */
+    }
+
+        /* 下拉后，整个下拉窗体被选择的项的样式还有越过的样式 */
+        QComboBox QAbstractItemView::item:selected {
+            background-color: #6d6370;
+        }
+/*串口下拉框样式 end*/
+
+/*QLabel {
+    background-color: #428bca;
+    padding: 2px 4px;
+    border-radius: 3px;
+    color: #fff;
+}*/
+
+/*最小化按钮*/
+QPushButton#smallBtn {
+    color: black; /*字体颜色*/
+    border: none; /*去掉边框*/
+    background: transparent; /* 设置背景为透明 */
+    border-radius: 15px; /*圆角*/
+}
+
+    QPushButton#smallBtn:hover {
+        background-color: rgb(198, 174, 62);
+    }
+
+    /*关闭按钮*/
+QPushButton#closeBtn {
+    color: black; /*字体颜色*/
+    border: none; /*去掉边框*/
+    background: transparent; /* 设置背景为透明 */
+    border-radius: 15px;
+}
+
+    QPushButton#closeBtn:hover {
+        background-color: rgba(196,43,28,255);
+    }
+
+/*LCD时间样式*/
+QWidget#LcdTime {
+    color: black;
+    border: none; /*去掉边框*/
+    background: transparent; /* 设置背景为透明 */
+}
+
+QToolTip {
+    font-size: 9pt;
+    color: white;
+    padding: 2px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: rgb(63,79,93);
+    border: 1px solid white;
+}
+
+/*debug区文本编辑框样式begin*/
+
+QTextEdit#Debug_TextEdit {
+    color: #000000;
+    border: 1px solid rgb(91,212,215);
+    background: rgb(233,240,246);
+    border-radius: 5px;
+}
+
+/*文本编辑框样式 end*/
+
+/* 设置垂直滚动条的样式 */
+QScrollBar:vertical {
+    border: none;   
+    background: transparent;
+    width: 6px;
+}
+/* 设置垂直滚动条的滑块样式 */
+QScrollBar::handle:vertical {
+    background-color: rgb(42, 168, 186);
+    min-height: 30px; /* 滑块最小高度 */
+    border-radius: 3px;
+    width: 6px;
+}
+/* 设置垂直滚动条的增加按钮样式 */
+QScrollBar::add-line:vertical {
+    border: none;
+    height: 0px;
+}
+/* 设置垂直滚动条的减少按钮样式 */
+QScrollBar::sub-line:vertical {
+    border: none;
+    height: 0px;
+}
+/* 设置垂直滚动条的增加和减少页面样式 */
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: transparent;
+    border-radius: 3px;
+}
+
+/*设置噪声检测的文本框样式*/
+QTextEdit#Page4_Experience_textEdit {
+    color: #000000;
+    border: 1px solid rgb(133, 213, 84);
+    background: rgb(233,240,246);
+    border-radius: 5px;
+}
+
+/*设置串口调试助手接收区的文本框样式*/
+QTextEdit#Page5_SerialDebug_textEdit {
+    color: #000000;
+    border: 2px solid rgb(22, 182, 153);
+    background: rgb(233,240,246);
+    border-radius: 5px;
+}
+
+
+/*设置串口调试助手发送区的文本框样式*/
+QTextEdit#Page5_SerialSend_textEdit {
+    color: #000000;
+    border: 2px solid rgb(14, 140, 213);
+    background: rgb(233,240,246);
+    border-radius: 5px;
+}
+
+/*设置Bin文件区的文本框样式*/
+QTextEdit#Page3_BinFile_textEdit {
+    color: #000000;
+    border: 2px solid rgb(22, 182, 153);
+    background: rgb(233,240,246);
+    border-radius: 5px;
+}
+
+/* 设置垂直滚动条的滑块样式 */
+QScrollBar#Page5_SerialDebugTextEdit_scrollBar::handle:vertical {
+    background-color: rgb(102, 102, 102);
+    min-height: 30px; /* 滑块最小高度 */
+    border-radius: 3px;
+    width: 6px;
+}
+
+/* 设置垂直滚动条的滑块样式 */
+QScrollBar#Page5_SerialSendTextEdit_scrollBar::handle:vertical {
+    background-color: rgb(102, 102, 102);
+    min-height: 30px; /* 滑块最小高度 */
+    border-radius: 3px;
+    width: 6px;
+}
+
+/* 设置垂直滚动条的滑块样式 */
+QScrollBar#Page3_BinFileTextEdit_scrollBar::handle:vertical {
+    background-color: rgb(102, 102, 102);
+    min-height: 30px; /* 滑块最小高度 */
+    border-radius: 3px;
+    width: 6px;
+}
+
+
+

@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/Loginview">
+        <file>Resource/CSS/Loginview.css</file>
+        <file>Resource/Images/AC_logo.png</file>
+    </qresource>
+    <qresource prefix="/HintMessage">
+        <file>Resource/CSS/HintMessage.css</file>
+        <file>Resource/Images/type_error.png</file>
+        <file>Resource/Images/type_infomation.png</file>
+        <file>Resource/Images/type_success.png</file>
+        <file>Resource/Images/type_warning.png</file>
+    </qresource>
+    <qresource prefix="/Mainwindow">
+        <file>Resource/CSS/Mainwindow.css</file>
+        <file>Resource/Images/DropDownBox.png</file>
+        <file>Resource/YaHeiConsolas.ttf</file>
+        <file>Resource/AC_logo1.ico</file>
+    </qresource>
+    <qresource prefix="/FlatUI">
+        <file>Resource/Images/Check_1.png</file>
+    </qresource>
+    <qresource prefix="/NavProgress">
+        <file>Resource/fontawesome-webfont.ttf</file>
+    </qresource>
+    <qresource prefix="/Page7">
+        <file>Resource/Images/s1_video.png</file>
+        <file>Resource/Images/s2_video.png</file>
+        <file>Resource/Images/x_video.png</file>
+        <file>Resource/Images/xe_video.png</file>
+        <file>Resource/Images/xpro_video.png</file>
+        <file>Resource/Images/xr_video.jpg</file>
+    </qresource>
+</RCC>

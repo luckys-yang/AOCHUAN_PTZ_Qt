@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{8142fd45-34e9-4707-a5c3-6b172e908c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\CSS">
+      <UniqueIdentifier>{235a0964-de24-4086-a44c-fa7bf39f3702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Images">
+      <UniqueIdentifier>{b0831a2e-56cf-4dcb-b6a1-07e959fc8f58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BSP">
+      <UniqueIdentifier>{ddb3d2b1-e7be-4d99-8897-61968fca1113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widget_Lib">
+      <UniqueIdentifier>{56a49f22-d601-46e4-b050-44718c596cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widget_Lib\src">
+      <UniqueIdentifier>{42b61bb1-13b2-442f-bdfc-b8eb20d729fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widget_Lib\inc">
+      <UniqueIdentifier>{77f1fd51-67b2-4632-a699-f91ce7ef535a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{e368741b-9db5-4917-bb39-17de22b7466b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User\inc">
+      <UniqueIdentifier>{cdd73b4c-40ca-42de-8106-824e399bd6cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User\src">
+      <UniqueIdentifier>{446f74e5-2bb6-452b-bffb-c0cf3ed66e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BSP\inc">
+      <UniqueIdentifier>{21e6263c-2f8c-42c0-8bec-5853f0804cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BSP\src">
+      <UniqueIdentifier>{7210d478-6779-4ba0-ab64-8d8883415979}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Mainwindow.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="Mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TextMoveWidget.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="SwitchButton.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="StepProgress.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveLog.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Progresswait.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressColor.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Panelitem.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="NavProgress.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="NavLabel.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="NavBar.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Loginview.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="LcdDateTime.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="HoverFillButton.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="HintMessage.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="FlatUI.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Bsp_ComBoBox.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>User\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Mainwindow.cpp">
+      <Filter>User\src</Filter>
+    </ClCompile>
+    <ClCompile Include="PublicClass.cpp">
+      <Filter>User\src</Filter>
+    </ClCompile>
+    <ClCompile Include="QTTest.cpp">
+      <Filter>User\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPage1.cpp">
+      <Filter>BSP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="AppSettings.cpp">
+      <Filter>BSP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPage2.cpp">
+      <Filter>BSP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPage3.cpp">
+      <Filter>BSP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPage4.cpp">
+      <Filter>BSP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MainTopBottom.cpp">
+      <Filter>BSP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPage5.cpp">
+      <Filter>BSP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPage6.cpp">
+      <Filter>BSP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialThread.cpp">
+      <Filter>BSP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressPercent.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPage7.cpp">
+      <Filter>BSP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnimation.cpp">
+      <Filter>Widget_Lib\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bsp_ComBoBox.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="FlatUI.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="HintMessage.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="HoverFillButton.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="LcdDateTime.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="Loginview.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="NavBar.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="NavLabel.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="NavProgress.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="Panelitem.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="ProgressColor.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="Progresswait.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="SaveLog.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="StepProgress.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="SwitchButton.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="TextMoveWidget.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="Mainwindow.h">
+      <Filter>User\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="QTTest.h">
+      <Filter>User\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="MainPage1.h">
+      <Filter>BSP\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="AppSettings.h">
+      <Filter>BSP\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="MainPage2.h">
+      <Filter>BSP\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="MainPage3.h">
+      <Filter>BSP\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="MainPage4.h">
+      <Filter>BSP\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="MainTopBottom.h">
+      <Filter>BSP\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="MainPage5.h">
+      <Filter>BSP\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="MainPage6.h">
+      <Filter>BSP\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="SerialThread.h">
+      <Filter>BSP\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="ProgressPercent.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="MainPage7.h">
+      <Filter>BSP\inc</Filter>
+    </QtMoc>
+    <QtMoc Include="ImageAnimation.h">
+      <Filter>Widget_Lib\inc</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\CSS\Loginview.css">
+      <Filter>Resource\CSS</Filter>
+    </None>
+    <None Include="Resource\CSS\HintMessage.css">
+      <Filter>Resource\CSS</Filter>
+    </None>
+    <None Include="Resource\CSS\Mainwindow.css">
+      <Filter>Resource\CSS</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\Images\AC_logo.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Resource\Images\type_error.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Resource\Images\type_infomation.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Resource\Images\type_success.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Resource\Images\type_warning.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Resource\AC_logo1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ui_Mainwindow.h">
+      <Filter>User\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="PublicClass.h">
+      <Filter>User\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>User\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AC_PTZ_V1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
